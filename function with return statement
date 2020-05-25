@@ -1,0 +1,7 @@
+function welcome(name){
+
+	   	return ("Hello"+name)
+
+	   }
+	   output=welcome('lekshmi')
+	   print (output)

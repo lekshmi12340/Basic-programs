@@ -1,0 +1,5 @@
+function calculate(x,y){
+	   	sum=x+y;
+	   	alert(sum);
+	   }
+	   calculate(100,20)

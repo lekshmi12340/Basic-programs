@@ -1,0 +1,12 @@
+	   function calculate(x,y,process='sub'){
+	   	if (process=='add') {
+	   		alert(x+y)
+	   	}
+	   	else if(process=='sub'){
+	   		alert(x-y)
+	   	}
+	   	else{
+	   		alert("Invalid selection")
+	   	}
+	   }
+	   calculate(10,30)

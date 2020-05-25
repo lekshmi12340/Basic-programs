@@ -1,0 +1,6 @@
+ k=prompt("Enter the number for which multiplication table to be found")
+    for(i=0;i<10;i++){
+        p=k*i
+        document.write(k+'*'+i+'='+p +'<br>')
+    }
+    

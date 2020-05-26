@@ -1,0 +1,13 @@
+<script>
+    class Person{
+        constructor(name){
+            this.pname=name;
+        }
+        welcome(){
+            alert('Hello'+' '+this.pname)
+        }
+    }
+    let obj=new Person('lekshmi')
+    obj.welcome()
+
+</script>

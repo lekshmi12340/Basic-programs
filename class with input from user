@@ -1,0 +1,16 @@
+<script>
+    name=prompt("Enter the name")
+    class Person{
+        constructor(name){
+            this.pname=name;
+        }
+        welcome(){
+            alert('Hello'+' '+this.pname)
+        }
+    }
+    let obj=new Person(name)
+    obj.welcome(name)
+
+</script>
+
+
